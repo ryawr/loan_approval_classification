@@ -28,7 +28,7 @@ services:
     ports:
       - "8501:8501"
     volumes:
-      # Mount data folder for future JSON schema loading
+      # Mount data  folder for future JSON schema loading
       - ./data:/app/data:ro
     environment:
       - API_URL=http://167.172.29.110:8000

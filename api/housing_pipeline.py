@@ -4,7 +4,7 @@ Shared ML pipeline components for the housing project.
 
 This module holds all custom transformers and helper functions that are used
 both in training and in inference (FastAPI app), so that joblib pickles
-refer to a stable module path: `housing_pipeline.<name>`.
+refer to a stable module path: `housing_pipeline.<name>`  .
 """
 
 import numpy as np
