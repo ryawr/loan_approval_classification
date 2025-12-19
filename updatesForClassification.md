@@ -29,7 +29,7 @@ from lightgbm import LGBMRegressor
 →
 
 ```python
-from sklearn.linear_model import RidgeClassifier   # or LogisticRegression, etc.
+from sklearn.linear_model import RidgeClassifier   # or LogisticRegression,  etc.
 from sklearn.ensemble import HistGradientBoostingClassifier
 
 from xgboost import XGBClassifier
