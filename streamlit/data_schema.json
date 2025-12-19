@@ -1,0 +1,79 @@
+{
+  "numerical": {
+    "cibil_score": {
+      "min": 300.00,
+      "max": 900.00,
+      "mean": 600.0,
+      "median": 600.0
+    },
+    "income_annum": {
+      "min": 200000.0,
+      "max": 9900000.0,
+      "mean": 5100000.0,
+      "median": 5100000.00
+    },
+    "luxury_assets_value": {
+      "min": 300000.0,
+      "max": 39200000.0,
+      "mean": 15126305.0,
+      "median": 14600000.0
+    },
+    "residential_assets_value": {
+      "min": -100000.0,
+      "max": 29100000.0,
+      "mean": 7472616.0,
+      "median": 5600000.0
+    },
+    "bank_asset_value": {
+      "min": 0.0,
+      "max": 14700000.0,
+      "mean": 4976692.0,
+      "median": 4600000.0
+    },
+    "loan_amount": {
+      "min": 300000.0,
+      "max": 39500000.0,
+      "mean": 15133450.0,
+      "median": 14500000.0
+    },
+    "no_of_dependents": {
+      "min": 0.0,
+      "max": 5.0,
+      "mean": 2.0,
+      "median": 3.0
+    },
+    "commercial_assets_value": {
+      "min": 0.0,
+      "max": 19400000.0,
+      "mean": 4973155.0,
+      "median": 3700000.0
+    },
+    "loan_term": {
+      "min": 2.0,
+      "max": 20.0,
+      "mean": 10.0,
+      "median": 10.0
+    },
+    "loan_id": {
+      "min": 1.0,
+      "max": 4269.0,
+      "mean": 2135.0,
+      "median": 2135.0
+    }
+  },
+  "categorical": {
+    "self_employed": {
+      "unique_values": [
+        "No",
+        "Yes"
+      ]
+    },
+    "education": {
+      "unique_values": [
+        "Graduate",
+        "Not Graduate"
+      ]
+    }
+  }
+  
+}
